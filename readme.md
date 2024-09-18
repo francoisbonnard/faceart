@@ -54,3 +54,19 @@ https://civitai.com/models/618692?modelVersionId=691639
 https://civitai.com/models/213836/xenomorph-alien-flux1d-and-sdxl?modelVersionId=736892
 
 Base model: Flux.1 D (D for dev model. S for Schnell model. I only use D for the best quality!)
+
+## Post to make on discord
+
+Install Flux from civitail
+
+![alt text](image-1.png)
+
+![alt text](image.png)
+
+AssertionError: You do not have CLIP state dict!
+Time taken: 24.3 sec.
+
+A: 11.12 GB, R: 11.41 GB, Sys: 12.0/44.3223 GB (27.0%)*
+
+[Link to discord discussion](
+https://discord.com/channels/1102237470457864282/1102259141839441960/1286089274889863199)
