@@ -2,8 +2,6 @@
 
 [Learn ThinkDiffusion](https://www.thinkdiffusion.com/learn)
 
-
-
 [Link to Roop](https://github.com/s0md3v/sd-webui-roop)
 
 [Mastering Image Prompts in Stable Diffusion AI with IP-Adapter](https://learn.thinkdiffusion.com/mastering-image-prompts-in-stable-diffusion-ai/)
@@ -93,9 +91,32 @@ Recommend : Turbo 24gb machine
 
 [ComfyUI Workflow Creation Essentials For Beginners](https://www.youtube.com/watch?v=VM9snsuoqBc)
 
+[Master AI image generation - ComfyUI full tutorial 2024](https://www.youtube.com/watch?v=g74Cq9Ip2ik ) 
+start again at [44'](https://youtu.be/g74Cq9Ip2ik?si=Ig7ef4y0-AP27nfq&t=2644)
+
 ### How to save a workflow in the folder workflow
 
 [Link to discord](https://discord.com/channels/1102237470457864282/1102259141839441960/1286992144460156970)
+
+### keyboard shotcut
+
+| key | action | 
+|----------|----------|
+| ctrl + left mouse| select node | 
+| shift + ctrl | move selected node |
+ ctrl + A| select all |
+|Ctrl M| Mute a Node |
+ Ctrl + B | Bypass |
+ double click| search|
+
+
+convert widget to input -> search -> primitive (Reroute Primitive )
+
+### check
+
+Install custom nodes : Image chooser
+
+Model : 4x-UltraSharp
 
 ## Youtube download 
 
