@@ -120,6 +120,10 @@ ImageSelector [ComfyUI-Image-Selector]
 
 ![alt text](image-3.png)
 
+### Dance Video
+
+[Link 1 for credits](https://www.youtube.com/watch?v=rY9PDSfEjUk)
+
 ## ComfyUI-AnimateAnyone-Evolved
 
 [Link to github](https://github.com/ankur8613/ComfyUI-AnimateAnyone-Evolved)
@@ -127,3 +131,22 @@ ImageSelector [ComfyUI-Image-Selector]
 ## ComfyUI tutorial
 
 [ComfyUI Workflow Creation Essentials For Beginners](https://www.youtube.com/watch?v=VM9snsuoqBc)
+
+
+## Youtube download 
+
+### VLC not working
+Media / Convert media / Network / URL Youtube
+
+Patch VLV : Go to [code videolan](https://code.videolan.org/videolan/vlc/-/tree/master/share/lua/playlist)
+
+and download this file [youtube.lua](https://code.videolan.org/videolan/vlc/-/blob/c49166f43588bd9dccb85620316ae4f5c28ae797/share/lua/playlist/youtube.lua)
+
+In this directory : C:\Program Files\VideoLAN\VLC\lua\playlist
+replace the youtube.luac file
+
+### use firefox extension
+
+use [this](https://videodroid.org/pro_upgrade.html)
+
+moz-extension://66ac18bd-3ddd-409e-b964-8e09bf093566/options/options.html
