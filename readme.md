@@ -108,6 +108,7 @@ start again at [44'](https://youtu.be/g74Cq9Ip2ik?si=Ig7ef4y0-AP27nfq&t=2644)
 |Ctrl M| Mute a Node |
  Ctrl + B | Bypass |
  double click| search|
+ |ctrl+shift+V|paste with link|
 
 
 convert widget to input -> search -> primitive (Reroute Primitive )
