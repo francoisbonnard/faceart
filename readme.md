@@ -1,3 +1,30 @@
+- [process](#process)
+- [Flux](#flux)
+- [Hidden Faces](#hidden-faces)
+  - [Prompt](#prompt)
+- [LORA](#lora)
+  - [Lora for Flux](#lora-for-flux)
+  - [Alien for flux 1.D](#alien-for-flux-1d)
+  - [Post to make on discord](#post-to-make-on-discord)
+- [Dancing Noodles](#dancing-noodles)
+  - [Dance Video](#dance-video)
+- [ComfyUI](#comfyui)
+  - [ComfyUI-AnimateAnyone-Evolved](#comfyui-animateanyone-evolved)
+  - [ComfyUI tutorial](#comfyui-tutorial)
+    - [How to save a workflow in the folder workflow](#how-to-save-a-workflow-in-the-folder-workflow)
+    - [Ultimate SD Upscale missing](#ultimate-sd-upscale-missing)
+    - [controlnet](#controlnet)
+    - [Instant ID](#instant-id)
+  - [Using Searge](#using-searge)
+  - [keyboard shotcut](#keyboard-shotcut)
+    - [check](#check)
+- [Youtube download](#youtube-download)
+  - [VLC not working](#vlc-not-working)
+  - [use firefox extension](#use-firefox-extension)
+
+
+Create Table of Contents / update Table of contents
+
 # process
 
 [Learn ThinkDiffusion](https://www.thinkdiffusion.com/learn)
@@ -8,7 +35,7 @@
 
 [Make anyone say anything with Wav2Lip's Lip Sync and any existing video](https://learn.thinkdiffusion.com/wav2lip-lip-sync-any-existing-video/)
 
-## Flux
+# Flux
 
 [Link to Flux Model](https://huggingface.co/lllyasviel/flux1-dev-bnb-nf4/tree/main)
 
@@ -20,18 +47,18 @@ https://huggingface.co/lllyasviel/flux1-dev-bnb-nf4/resolve/main/flux1-dev-bnb-n
 
 Run Forge 
 
-## Hidden Faces 
+# Hidden Faces 
 
 [Link to tuto HiddenFaces](https://learn.thinkdiffusion.com/hidden-faces-and-text-with-control-net-qr-code-monster/)
 
 
-### Prompt
+## Prompt
 
 mountains, red sunset, 4k, ultra detailed, masterpiece
 An autumn landscape in a mountainous forest, 4k, ultra detailed, masterpiece
 In a tropical and rocky forest during autumn, 4k, ultra detailed, masterpiece
 
-## LORA
+# LORA
 
 [Lora models and how to use them with Stable Diffusion](https://learn.thinkdiffusion.com/how-to-use-loras/)
 
@@ -71,7 +98,7 @@ A: 11.12 GB, R: 11.41 GB, Sys: 12.0/44.3223 GB (27.0%)*
 [Link to discord discussion](
 https://discord.com/channels/1102237470457864282/1102259141839441960/1286089274889863199)
 
-## Dancing Noodles
+# Dancing Noodles
 
 [link to the tutorial](https://learn.thinkdiffusion.com/transform-videos-with-ai-dancing-noodles-step-by-step-tutorial/)
 
@@ -79,9 +106,11 @@ File : dance-transfer-v80.json
 Recommend : Turbo 24gb machine
 
 
-### Dance Video
+## Dance Video
 
 [Link 1 for credits](https://www.youtube.com/watch?v=rY9PDSfEjUk)
+
+# ComfyUI
 
 ## ComfyUI-AnimateAnyone-Evolved
 
@@ -98,10 +127,63 @@ start again at [44'](https://youtu.be/g74Cq9Ip2ik?si=Ig7ef4y0-AP27nfq&t=2644)
 
 [Link to discord](https://discord.com/channels/1102237470457864282/1102259141839441960/1286992144460156970)
 
-### keyboard shotcut
+### Ultimate SD Upscale missing 
+
+### controlnet 
+
+Install Models / controlnet Union not found
+
+|ID| Type|Base|Name|Filename|Description|
+|----------|----------|----------|----------|----------|--------|
+| 313 | controlnet|SDXL|xinsir/ControlNet++: All-in-one ControlNet|diffusion_pytorch_model.safetensors|All-in-one ControlNet for image generations and editing!|
+
+Install Nodes
+
+comfyUI-art-venture (preprocessor )
+
+### Instant ID
+
+https://github.com/cubiq/ComfyUI_InstantID
+
+install nodes from : 
+100	cubiq	 ComfyUI InstantID (Native Support)
+
+install InsightFace Model
+
+https://huggingface.co/InstantX/InstantID/resolve/main/ip-adapter.bin?download=true
+
+in 
+
+    comfyUI/models/instantid
+
+
+Also install instantid model 
+
+
+
+https://github.com/cubiq/ComfyUI_IPAdapter_plus/issues/263
+same i had the double /models/antelopev2/antelopev2/ THANK YOU!
+
+## Using Searge 
+
+https://learn.thinkdiffusion.com/introduction-to-flux-ai-quick-guide/#download-workflow-for-the-webinar
+
+Install nodes
+https://github.com/SeargeDP/SeargeSDXL
+https://github.com/SeargeDP/ComfyUI_Searge_LLM
+
+Install Mistral
+https://huggingface.co/MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF/resolve/main/Mistral-7B-Instruct-v0.3.Q4_K_M.gguf
+
+Create a new folder called llm_gguf in the ComfyUI/models directory.
+
+![alt text](image-4.png)
+
+
+## keyboard shotcut
 
 | key | action | 
-|----------|----------|
+|-|-|
 | ctrl + left mouse| select node | 
 | shift + ctrl | move selected node |
  ctrl + A| select all |
@@ -119,9 +201,9 @@ Install custom nodes : Image chooser
 
 Model : 4x-UltraSharp
 
-## Youtube download 
+# Youtube download 
 
-### VLC not working
+## VLC not working
 Media / Convert media / Network / URL Youtube
 
 Patch VLV : Go to [code videolan](https://code.videolan.org/videolan/vlc/-/tree/master/share/lua/playlist)
@@ -131,8 +213,10 @@ and download this file [youtube.lua](https://code.videolan.org/videolan/vlc/-/bl
 In this directory : C:\Program Files\VideoLAN\VLC\lua\playlist
 replace the youtube.luac file
 
-### use firefox extension
+## use firefox extension
 
 use [this](https://videodroid.org/pro_upgrade.html)
 
 moz-extension://66ac18bd-3ddd-409e-b964-8e09bf093566/options/options.html
+
+
