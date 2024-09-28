@@ -101,15 +101,33 @@ https://discord.com/channels/1102237470457864282/1102259141839441960/12860892748
 
 # Dancing Noodles
 
+## Tuto 1
 [link to the tutorial](https://learn.thinkdiffusion.com/transform-videos-with-ai-dancing-noodles-step-by-step-tutorial/)
 
-File : dance-transfer-v80.json
-Recommend : Turbo 24gb machine
 
+
+
+## Tuto 2
+[tuto 2](https://www.youtube.com/watch?v=d3vpKqTiTvc)
+
+[Link to dance-transfer Discord](https://discord.com/channels/808550927774515250/1268437080585932800/1268538941334618173)
 
 ## Dance Video
 
 [Link 1 for credits](https://www.youtube.com/watch?v=rY9PDSfEjUk)
+
+Last log lines :
+
+    Requested to load ControlNet
+    Requested to load ControlNet
+    Requested to load AnimateDiffModel
+    Requested to load BaseModel
+    Loading 4 new models
+
+Missing input for model
+
+![alt text](image-6.png)
+
 
 # ComfyUI
 
