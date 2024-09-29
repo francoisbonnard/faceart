@@ -22,6 +22,7 @@
   - [6.4. Using Searge](#64-using-searge)
   - [6.5. keyboard shotcut](#65-keyboard-shotcut)
     - [6.5.1. check](#651-check)
+  - [6.6 IP adapter](#66-ip-adapter)
 - [7. Youtube download](#7-youtube-download)
   - [7.1. VLC not working](#71-vlc-not-working)
   - [7.2. use firefox extension](#72-use-firefox-extension)
@@ -143,6 +144,10 @@ Understand Model, Clip & VAE
 VAE: VAE (Variational AutoEncoder) is responsible for converting the image between the pixel space and the latent space. It consists of an encoder that compresses the image into a lower-dimensional latent representation and a decoder that reconstructs the image from the latent representation. In the text-to-image process, the VAE is used only in the final step to convert the generated image from the latent space back to the pixel space. The VAE Decode node in ComfyUI takes the output of the KSampler node (which operates in the latent space) and uses the decoder part of the VAE to transform the latent representation into the final image in the pixel space.
 It's important to note that the VAE is a separate component from the CLIP language model. While CLIP focuses on processing text prompts, the VAE deals with the conversion between pixel and latent spaces.
 
+[ComfyUI: Advanced Understanding (Part 1)](https://www.youtube.com/watch?v=_C7kR2TFIX0)
+
+[ComfyUI: Advanced understanding Part 2](https://www.youtube.com/watch?v=ijqXnW_9gzc)
+
 ## 6.1. Workflow
 
 [Link comfyworkflows](https://comfyworkflows.com/)
@@ -235,6 +240,12 @@ convert widget to input -> search -> primitive (Reroute Primitive )
 Install custom nodes : Image chooser
 
 Model : 4x-UltraSharp
+
+## 6.6 IP adapter
+
+[link to github](https://github.com/tencent-ailab/IP-Adapter/)
+
+
 
 # 7. Youtube download 
 
