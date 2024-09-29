@@ -23,6 +23,7 @@
   - [6.5. keyboard shotcut](#65-keyboard-shotcut)
     - [6.5.1. check](#651-check)
   - [6.6 IP adapter](#66-ip-adapter)
+  - [6.7](#67)
 - [7. Youtube download](#7-youtube-download)
   - [7.1. VLC not working](#71-vlc-not-working)
   - [7.2. use firefox extension](#72-use-firefox-extension)
@@ -245,7 +246,9 @@ Model : 4x-UltraSharp
 
 [link to github](https://github.com/tencent-ailab/IP-Adapter/)
 
+## 6.7
 
+[Dance Transfert from Civitail](https://civitai.com/models/559596?modelVersionId=713139)
 
 # 7. Youtube download 
 
