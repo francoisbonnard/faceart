@@ -1,3 +1,17 @@
+- [ComfyUI](#comfyui)
+  - [Workflow](#workflow)
+  - [ComfyUI-AnimateAnyone-Evolved](#comfyui-animateanyone-evolved)
+  - [ComfyUI tutorial](#comfyui-tutorial)
+    - [How to save a workflow in the folder workflow](#how-to-save-a-workflow-in-the-folder-workflow)
+    - [Ultimate SD Upscale missing](#ultimate-sd-upscale-missing)
+    - [controlnet](#controlnet)
+    - [Instant ID](#instant-id)
+  - [Using Searge](#using-searge)
+  - [keyboard shotcut](#keyboard-shotcut)
+    - [check](#check)
+
+
+
 # ComfyUI
 
 ## Workflow
@@ -70,7 +84,7 @@ https://huggingface.co/MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF/resolve/main/
 
 Create a new folder called llm_gguf in the ComfyUI/models directory.
 
-![alt text](image-4.png)
+![alt text](./img/image-4.png)
 
 
 ## keyboard shotcut

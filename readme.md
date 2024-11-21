@@ -78,9 +78,9 @@ Base model: Flux.1 D (D for dev model. S for Schnell model. I only use D for the
 
 Install Flux from civitail
 
-![alt text](image-1.png)
+![alt text](./img/image-1.png)
 
-![alt text](image.png)
+![alt text](./img/image.png)
 
 AssertionError: You do not have CLIP state dict!
 Time taken: 24.3 sec.
@@ -125,7 +125,7 @@ Last log lines :
 
 Missing input for model
 
-![alt text](image-6.png)
+![alt text](./img/image-6.png)
 
 
 

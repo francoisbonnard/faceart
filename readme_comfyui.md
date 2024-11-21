@@ -98,7 +98,7 @@ https://huggingface.co/MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF/resolve/main/
 
 Create a new folder called llm_gguf in the ComfyUI/models directory.
 
-![alt text](image-4.png)
+![alt text](./img/image-4.png)
 
 
 ## 6.5. keyboard shotcut
